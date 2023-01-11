@@ -1,36 +1,10 @@
+# Hello-Microverse
+A Microverse exercise to set up a new project
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Hello Microverse</b></h3>
 
 </div>
 
@@ -48,56 +22,52 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Hello Microverse <a name="about-project"></a>
 
-**Hello Microverse**  Hello Microverse is a starter exercise to create new projects based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running npm install we will have a basic boilerplate with properly configured linters and correct initial file structrure.
-
+> **Hello Microverse** is a starter exercise to create new projects based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic boilerplate with properly configured linters and correct initial file structrure.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This boilerplate focuses only on linters and .gitignore. No JS or Server are included in this repo.
+> This boilerplate focuses only on `linters` and `.gitignore`. No JS or Server are included in this repo.
 <details>
   <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3.org/html/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">SCSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
 
 <details>
   <summary>Server</summary>
- 
-<details>
-<summary>Database</summary>
- 
+  <ul>
+    <li><a href="https://www.netlify.com/">Netlify</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **a) Linters: Lighthouse, Webhint, and Stylelint**
-- **b) .github/workflows/linters.yml file to run linters on GitHub Pull Request**
-- **c) .gitignore file, including node_modules/.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), and [Stylelint](https://stylelint.io/.)
+- **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
+- **A** `.gitignore` file including `node_modules/`.
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Live Demo Link
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://hello-microverse.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,48 +75,54 @@ This boilerplate focuses only on linters and .gitignore. No JS or Server are inc
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> If you are a new developer and would like to have a basic project boilerplate to start practicing your code or creating your first app-features, cloning this project will give you what you need! To get a local copy up and running, follow these steps:
-
+> If you are a new developer and would like to have a basic project boilerplate to start practicing your code or creating your first app-features, cloning this project will give you what you need!
+> To get a local copy up and running, follow these steps:
 ### Prerequisites
 
 In order to run this project you need:
 
-To Have npm installed in your project: curl -qL https://www.npmjs.com/install.sh | sh
+- Have [npm](https://www.npmjs.com/package/npm) installed in your project:
+  `curl -qL https://www.npmjs.com/install.sh | sh`
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/Gardimy/Microverse_project1.git
+`git clone https://github.com/Gardimy/Microverse_project1`
 
-### Install
+or
 
-Install this project with:
+`git clone https://github.com/Gardimy/Microverse_project1` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 
-run the npm install command in your console.
+### Install:
+
+run the `npm install` command in your console.
 
 ### Usage
 
-To run the project, execute the following command:
+To run the linters before committing any changes to your code, execute the following commands:
 
-lighthouse <url> npx hint . npx stylelint "**/*.scss" <--NOTE: this repo is set up to use with SCSS. If you would like to use CSS, you must replace "**/*.scss" with "**/*.{css,scss}" in line 48 of the .stylelintrc.json file, and run the linter with:
+`npx hint .`
+`npx stylelint "**/*.scss"` <--_NOTE: this repo is set up to use with SCSS. If you would like to use CSS, you must replace `"**/*.scss"` with `"**/*.{css,scss}"` in **line 48** of the `.stylelintrc.json` file, and run the linter with:_
 
-npx stylelint "**/*.{css,scss}" instead.
-### Run tests
-
-👤 **Author1**
-
-- GitHub: [@githubGardimy]
-- Twitter: [@gardyelontiga45]
-- LinkedIn: [@gardimy]
+`npx stylelint "**/*.{css,scss}"` _instead_.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> 👤 **AstroboyReloaded**
+- GitHub: [@Gardimy](https://github.com/astroboyReloaded)
+- Twitter: [@Gardimy](https://twitter.com/astroboyReload)
+- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/astroboyreloaded/)
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-> ESLint.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+- [ESLint](https://eslint.org/).
 
 <!-- CONTRIBUTING -->
 
@@ -156,27 +132,17 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+> If you like this project please give me a star on GitHub.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to the Microvere Community to learn me this tools
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
+> I would like to thank [Microverse](https://www.microverse.org/) for teaching me these tools.
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
