@@ -39,7 +39,7 @@ A Microverse exercise to set up a"Hello World" project
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This boilerplate focuses only on `linters` and `.gitignore`. No JS or Server are included in this repo.
+> This project focuses only on `linters` and `.gitignore`. No JS or Server are included in this repo.
 <details>
   <summary>Client</summary>
   <ul>
