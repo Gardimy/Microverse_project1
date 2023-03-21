@@ -1,9 +1,10 @@
 # Hello-Microverse
-A Microverse exercise to set up a new project
+A Microverse exercise to set up a"Hello World" project
 <a name="readme-top"></a>
 
 <div align="center">
-
+<img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
   <h3><b>Hello Microverse</b></h3>
 
 </div>
@@ -75,7 +76,8 @@ A Microverse exercise to set up a new project
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> If you are a new developer and would like to have a basic project boilerplate to start practicing your code or creating your first app-features, cloning this project will give you what you need!
+>If you are a new developer and would like to have a basic project to start practicing your code or creating your first set up a Hello World app-features, cloning this project will give you what you need!
+
 > To get a local copy up and running, follow these steps:
 ### Prerequisites
 
@@ -113,10 +115,10 @@ To run the linters before committing any changes to your code, execute the follo
 
 ## 👥 Authors <a name="authors"></a>
 
-> 👤 **AstroboyReloaded**
-- GitHub: [@Gardimy](https://github.com/astroboyReloaded)
-- Twitter: [@Gardimy](https://twitter.com/astroboyReload)
-- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/astroboyreloaded/)
+> 👤 **Gardimyloaded**
+- GitHub: [@Gardimy](https://github.com/Gardimy)
+- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
+- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
 <!-- FUTURE FEATURES -->
 
@@ -136,7 +138,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> If you like this project please give me a star on GitHub.
+> If you like this project please give me a star on GitHub.And Don't hesitate to follow me on github, you will have the opportunity to get all updating available for this project.
+
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
@@ -146,7 +149,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT license](https://choosealicense.com/licenses/mit/) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
